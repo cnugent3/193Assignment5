@@ -1,3 +1,3 @@
 function makeBigger() {
-  document.getElementById("textinput").style.fontSize = "24pt";
+  document.getElementById("textInput").style.fontSize = "24pt";
 }
