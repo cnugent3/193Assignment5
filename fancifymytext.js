@@ -14,6 +14,7 @@ function changeStyle() {
       document.getElementById("textInput").style.color = "black";
       document.getElementById("textInput").style.textDecoration = "none";
   }
+}
 function mooText() {
     alert("Moo Clicked! Text Changed!");
     var str = document.getElementById("textInput");
