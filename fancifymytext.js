@@ -14,4 +14,12 @@ function changeStyle() {
     document.getElementById("textInput").style.color = "black";
     document.getElementById("textInput").style.textDecoration = "none";
   }
+  function mooText() {
+  var str = document.getElementById("textInput");
+  var textUpper = str.value;
+  textUpper = textUpper.toUpperCase();
+  var parts = textUpper.split(".");
+  textUpper = parts.join("-Moo.");
+  str.value = textUpper;
+}
 }
