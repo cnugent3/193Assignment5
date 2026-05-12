@@ -23,4 +23,4 @@ function mooText() {
     textUpper = parts.join("-Moo.");
     str.value = textUpper;
 }
-}
+
