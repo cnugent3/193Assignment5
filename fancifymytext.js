@@ -11,5 +11,7 @@ function changeStyle() {
     document.getElementById("textInput").style.textDecoration = "underline";
   } else if (document.getElementById("boringBetty").checked) {
     document.getElementById("textInput").style.fontWeight = "normal";
+    document.getElementById("textInput").style.color = "black";
+    document.getElementById("textInput").style.textDecoration = "none";
   }
 }
